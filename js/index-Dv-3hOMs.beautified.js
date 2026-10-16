@@ -22032,7 +22032,6 @@ const lF = {
             "conf.waitYou": "We'll see you on September 12 at Finca Biniagual.",
             "conf.addCalendar": "Add to calendar",
             "conf.cantAttendNote": "If for any reason you can't attend, we'd really appreciate it if you let us know in advance. You can contact us on WhatsApp.",
-            "footer.madeBy": "Made by The Digital Yes",
             "lang.switch": "Change language"
         }
     },
@@ -32412,9 +32411,6 @@ function uU({
             }), p.jsx("p", {
                 className: "text-sm text-white/80 font-body tracking-wide",
                 children: i
-            }), p.jsx("p", {
-                className: "text-xs text-white/60 mt-8 font-body",
-                children: r("footer.madeBy")
             })]
         })
     })
@@ -32590,29 +32586,7 @@ const mU = "assets/audio/intro-music-CzqJOUtA.mp3",
             })]
         })
     },
-    vU = "assets/images/watermark-CS4rvcxG.png",
-    yU = () => p.jsx("div", {
-        className: "fixed inset-0 z-[9999] pointer-events-none overflow-hidden flex items-center justify-center",
-        "aria-hidden": "true",
-        children: p.jsx(J.img, {
-            src: vU,
-            alt: "",
-            className: "w-56 md:w-72 select-none",
-            style: {
-                filter: "drop-shadow(0 0 12px rgba(255,255,255,0.9)) drop-shadow(0 0 32px rgba(255,255,255,0.7)) drop-shadow(0 0 64px rgba(255,255,255,0.5))"
-            },
-            animate: {
-                x: [0, 60, -40, 80, -20, 0],
-                y: [0, -50, 40, -30, 60, 0]
-            },
-            transition: {
-                duration: 40,
-                repeat: 1 / 0,
-                ease: "easeInOut"
-            },
-            draggable: !1
-        })
-    });
+    yU = () => null;
 
 function wU() {
     const [e, t] = g.useState(null), [n, r] = g.useState(null), [s, i] = g.useState(!0), [o, a] = g.useState(!1);
